@@ -1,0 +1,5 @@
+function removeApples(arr) {
+ return arr.filter(item => item !== "apple");
+}
+
+console.log(removeApples(["banana", "orange", "apple", "grape"])); 
