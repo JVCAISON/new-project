@@ -1,0 +1,12 @@
+function showRating(rating) {
+   let ratings = "";
+   for (let i = 0; i < Math.floor(rating); ++i) {
+      ratings += "★";
+   }
+   if (rating % 1 !== 0) {
+      ratings += "½";
+   }
+   return ratings;
+}
+
+console.log( showRating(4.5) );
