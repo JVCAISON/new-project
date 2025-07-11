@@ -1,5 +1,0 @@
-function filterOutFalsy(arr) {
-    return arr.filter(elem => !!elem);
-}
-
-console.log(filterOutFalsy(["", 500, null, false, 0])); 
